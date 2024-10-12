@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background: radial-gradient(ellipse at top, #ffffff, transparent),
+    radial-gradient(ellipse at bottom, #a020f0, transparent),
+    radial-gradient(circle at 10%, #1974d1, transparent);
+    background-attachment: fixed;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: white;
+}
+.menu {
+    background: radial-gradient(ellipse at top, #00ccff, transparent),
+    radial-gradient(ellipse at bottom, #9d00ff, transparent),
+    radial-gradient(circle at 10%, #ffffff, transparent);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.menu a {
+    font-size: 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    padding-top: 110px;
+}
+label{
+    font-size: 20px;
+    background-color: rgb(113, 203, 255);
+    border-radius: 5px;
+}
+textarea{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.forms{
+    border: solid 2px black ;
+    width:400px;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.aform{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(132, 0, 255), rgb(0, 174, 255));
+    border-radius: 5px;
+}

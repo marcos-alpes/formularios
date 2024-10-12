@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulário</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <nav class="menu">
+        <h1>Marcos Vinicius Alves Pereira/1º A - ADS</h1>
+        <a target="_blank" href="formulario.html">Formulário</a><br><br>
+    </nav>
+    <main class="content">
+        <form action="api/posturl">
+            <label for="idplaceholder">Na tag &lt;input&gt; com atributo type="text", para que serve o atributo "placeholder"?</label>
+                <textarea id="idplaceholder" name="idplaceholder" rows="1" cols="85">Para deixar um texto de fundo no campo de entrada que desaparece quando o usuário começa a digitar. </textarea><br>
+
+            <label for="idchecked">Na tag &lt;input&gt; com atributo type="radio" ou type="checkbox", para que serve o atributo "checked"?</label>
+                <textarea id="idchecked" name="idchecked" rows="1" cols="85">Defiene se o botão estará marcado por padrão quando a página for carregada ou não.</textarea><br>
+
+            <label for="idvalue">Na tag &lt;input&gt; para que serve o atributo "value"?</label>
+                <textarea id="idvalue" name="idvalue" rows="1" cols="85">Define o valor padrão que será exibido ou enviado para o servidor quando o formulário for submetido.</textarea><br>
+
+            <label for="idradio">Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que</br> apenas um deles fique marcado de cada vez?</label><br>
+                <textarea id="idradio" name="idradio" rows="1" cols="85"> O atributo name deve ser o mesmo para todos os botões de rádio que você deseja agrupar, garantindo que apenas um deles possa ser selecionado de cada vez.</textarea><br>
+
+            <label for="idlabel">Para que serve a tag &lt;label&gt;? Para que serve o atributo "for" nessa tag?</label>
+                <textarea id="idlabel" name="idlabel" rows="1" cols="85">O atributo "for" associa o &lt;label&gt; a um campo de formulário específico, vinculando ele ao valor do atributo id do outro campo.</textarea><br>
+
+            <label for="idselected">Na tag &lt;option&gt;para que serve o atributo "selected"?</label>
+                <textarea id="idselected" name="idselected" rows="1" cols="85">Define qual opção será selecionada por padrão em uma lista suspensa quando a página for carregada.</textarea><br>
+
+            <label for="idrequired">Nas tags de formulário para que serve o atributo "required"?</label>
+                <textarea id="idrequired" name="idrequired" rows="1" cols="85">Indica que o campo é obrigatório.</textarea><br>
+
+            <label for="idtextarea">Para que serve a tag &lt;textarea&gt;?</label><br>
+                <textarea id="idtextarea" name="idtextarea" rows="1" cols="85">Cria um campo de escrita para textos grandes, que pode ter linhas ilimitadas e tamanho personalizado pelo usuário.</textarea><br>
+
+            <label for="idaction">Na tag &lt;form&gt; para que serve o atributo "action"?</label></br>
+                <textarea id="idaction" name="idaction" rows="1" cols="85">Define o URL para o qual os dados do formulário serão enviados quando o formulário for submetido.</textarea><br>
+
+            <label for="idmethod">Na tag &lt;form&gt; para que serve o atributo "method"? </label></br>
+                <textarea id="idmethod" name="idmethod" rows="1" cols="85"> Define o método HTTP usado para enviar os dados do formulário, geralmente GET, ou POST.</textarea><br>
+
+            <label for="idpost">Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser </br>o valor do atributo "method" na tag &lt;form&gt;?</label><br>
+                <textarea id="idpost" name="idpost" rows="1" cols="85">O atributo Post.</textarea><br>
+
+            <label for="idenviar">Qual valor deve ser informado no atributo "method" na tag &lt;form&gt; em um formulário que será usado </br>para fazer upload de arquivos?</label><br>
+                <textarea id="idenviar" name="idenviar" rows="1" cols="85">Post, porque o GET não pode ser usado para post.</textarea><br>
+
+            <label for="idfieldset">O que as tags &lt;fieldset&gt; e &lt;legend&gt; produzem?</label>
+                <textarea id="idfieldset" name="idfieldset" rows="1" cols="85">A tag "fieldset" é usada para agrupar elementos relacionados de um formulário, e a tag "legend" define uma legenda ou título para o grupo de campos, fornecendo uma descrição para o conteúdo agrupado.</textarea><br>
+        </form>
+    </main>
+</body>
+</html>

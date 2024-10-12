@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h2>Formulário</h2>
+    <a class="aform" href="index.html">Voltar ao início</a>
+
+<form class="forms" action="api/posturl">
+
+<label for="idnome">Nome:</label>
+    <input type="text" id="idnome" name="idnome" placeholder="Digite seu nome completo."><br><br>
+
+<label for="idnascimento">Data de Nascimento:</label>
+    <input type="date" id="idnascimento" name="idnascimento"><br><br>
+    
+<label>Sexo:</label>
+    <input type="radio" id="idmasc" name="idsexo" value="masc">
+        <label for="idmasc">Masc</label>
+    <input type="radio" id="idfem" name="idsexo" value="fem">
+        <label for="idfem">Fem</label>
+    <input type="radio" id="idninfo" name="idsexo" value="naoinformar">
+        <label for="idninfo">Prefiro não informar</label><br><br>
+
+<label for="idendereco">Endereço:</label>
+    <input type="text" id="idendereco" name="idendereco" placeholder="Digite seu Endereço."><br><br>
+
+<label for="idlogradouro">Logradouro:</label>
+<input type="text" id="idlogradouro" name="idlogradouro" placeholder="Digite seu Logradouro."><br><br>
+
+<label for="idbairro">Bairro:</label>
+    <input type="text" id="idbairro" name="idbairro" placeholder="Digite seu Bairro."><br><br>
+
+<label for="idcidade">Cidade:</label>
+    <input type="text" id="idcidade" name="idcidade" placeholder="Digite sua cidade."><br><br>
+
+<label for="iduf">UF:</label>
+    <select id="iduf" name="iduf">
+        <option value="DF">DF</option>
+        <option value="SP">SP</option>
+        <option value="ES">RJ</option>
+        <option value="AC">GO</option>
+        <option value="MG">MG</option>
+        <option value="PR">ES</option>
+    </select><br><br>
+
+<label for="idemail">Email:</label>
+<input type="email" id="idemail" name="idemail" placeholder="Digite seu e-mail."><br><br>
+
+<button type="reset">Limpar</button>
+<button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
